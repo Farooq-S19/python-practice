@@ -1,0 +1,5 @@
+name = str(input("Enter a name : "))
+marks = int(input("Enter your marks : "))
+phNo = int(input("Enter your phone number : "))
+a = "Hi,{} your scored {} marks and your phone number is {}".format(name,marks,phNo)
+print(a)
